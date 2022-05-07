@@ -1,0 +1,25 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "cli for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weater.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Getvion",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
